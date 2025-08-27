@@ -1,0 +1,19 @@
+.contact__links { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 0.75rem; 
+  align-items: center; 
+}
+
+.contact__links a, .contact__links .pill { 
+  color: var(--text); 
+  text-decoration: none; 
+  padding: 0.5rem 0.75rem; 
+  border-radius: 8px; 
+  border: 1px solid var(--border); 
+  background: var(--bg-elev); 
+}
+
+.contact__links a:hover, .contact__links .pill:hover { 
+  background: #151c27; 
+}

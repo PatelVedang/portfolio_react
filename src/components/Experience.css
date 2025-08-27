@@ -1,0 +1,13 @@
+.timeline { 
+  display: grid; 
+  gap: 1rem; 
+  border-left: 2px solid var(--border); 
+  padding-left: 1rem; 
+}
+
+.timeline .item { 
+  background: var(--bg-elev); 
+  border: 1px solid var(--border); 
+  border-radius: 12px; 
+  padding: 1rem; 
+}

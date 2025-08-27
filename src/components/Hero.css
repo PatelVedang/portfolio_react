@@ -1,0 +1,50 @@
+.hero { 
+  padding: 6rem 0 4rem; 
+  background: radial-gradient(650px 300px at 0% -10%, rgba(124, 92, 255, 0.25), transparent 60%), radial-gradient(650px 300px at 100% -10%, rgba(76, 194, 255, 0.25), transparent 60%); 
+  border-top: none; 
+}
+
+.hero__title { 
+  font-size: clamp(2rem, 6vw, 3.25rem); 
+  line-height: 1.15; 
+  margin: 0 0 0.5rem; 
+  letter-spacing: 0.2px; 
+}
+
+.hero__subtitle { 
+  color: var(--muted); 
+  margin: 0 0 1.5rem; 
+  font-size: clamp(1rem, 2.5vw, 1.125rem); 
+}
+
+.hero__actions { 
+  display: flex; 
+  gap: 0.75rem; 
+}
+
+.btn { 
+  display: inline-block; 
+  background: var(--primary); 
+  color: #091018; 
+  text-decoration: none; 
+  padding: 0.6rem 0.9rem; 
+  border-radius: 10px; 
+  font-weight: 600; 
+  box-shadow: 0 8px 30px -12px var(--primary); 
+  border: 1px solid rgba(255,255,255,0.08); 
+}
+
+.btn:hover { 
+  background: var(--primary-700); 
+}
+
+.btn--secondary { 
+  background: transparent; 
+  color: var(--text); 
+  border: 1px solid var(--border); 
+  box-shadow: none; 
+}
+
+.btn--secondary:hover { 
+  background: var(--bg-elev); 
+}

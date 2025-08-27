@@ -1,0 +1,23 @@
+.grid.two-col { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 1.5rem; 
+}
+
+@media (min-width: 800px) { 
+  .grid.two-col { 
+    grid-template-columns: 1fr 1.2fr; 
+  } 
+}
+
+.about__image { 
+  background: var(--bg-elev) center/cover no-repeat; 
+  border: 1px solid var(--border); 
+  border-radius: 12px; 
+  min-height: 260px; 
+  box-shadow: 0 8px 30px -12px var(--shadow); 
+}
+
+.about__content { 
+  color: var(--muted); 
+}

@@ -1,0 +1,50 @@
+.site-header { 
+  position: sticky; 
+  top: 0; 
+  z-index: 10; 
+  -webkit-backdrop-filter: saturate(1.2) blur(8px);
+  backdrop-filter: saturate(1.2) blur(8px); 
+  background: rgba(11, 15, 20, 0.65); 
+  border-bottom: 1px solid var(--border); 
+}
+
+.header-inner { 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0.75rem 0; 
+}
+
+.brand { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 0.125rem; 
+}
+
+.brand__name { 
+  font-weight: 700; 
+  letter-spacing: 0.3px; 
+}
+
+.brand__role { 
+  color: var(--muted); 
+  font-size: 0.9rem; 
+}
+
+.nav { 
+  display: flex; 
+  gap: 1rem; 
+}
+
+.nav a { 
+  color: var(--muted); 
+  text-decoration: none; 
+  padding: 0.5rem 0.75rem; 
+  border-radius: 8px; 
+  transition: 160ms ease color, 160ms ease background; 
+}
+
+.nav a:hover { 
+  color: var(--text); 
+  background: var(--bg-elev); 
+}

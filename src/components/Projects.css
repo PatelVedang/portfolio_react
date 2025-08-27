@@ -1,0 +1,21 @@
+.cards { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); 
+  gap: 1rem; 
+}
+
+.cards .card { 
+  background: var(--card); 
+  border: 1px solid var(--border); 
+  border-radius: 12px; 
+  padding: 1rem; 
+  box-shadow: 0 10px 30px -18px var(--shadow); 
+}
+
+.cards .card .card__title { 
+  font-weight: 600; 
+}
+
+.cards .card .card__desc { 
+  color: var(--muted); 
+}
